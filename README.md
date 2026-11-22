@@ -1,9 +1,9 @@
 # AnyBlock
 
-AnyBlock is Anytype's open interchange project. It contains both generations
+AnyBlock is Aparok's open interchange project. It contains both generations
 of the format, the codecs between them, bundle tooling, and conformance data.
 
-- **AnyBlock v1** is the protobuf wire format used by Anytype for models,
+- **AnyBlock v1** is the protobuf wire format used by Aparok for models,
   events, changes, and snapshots.
 - **AnyBlock v2** is the readable, interoperable import/export and API-base
   format. Its first public `formatVersion` is `2.0`; later grammar revisions
@@ -13,7 +13,7 @@ of the format, the codecs between them, bundle tooling, and conformance data.
 
 **You have an export and want to read it.** →
 **[format/v2/READING.md](format/v2/READING.md)** — nine steps from a directory
-of JSON to titles, property values, links and page text, needing no Anytype
+of JSON to titles, property values, links and page text, needing no Aparok
 software and nothing from this repository. It is runnable; the reader is one
 standard-library Go program that imports no part of this module:
 
@@ -47,8 +47,8 @@ A caller imports the two together — v1 types in, AnyBlock JSON out:
 
 ```go
 import (
-	"github.com/anyproto/any-block/codec/anyblockjson"
-	v1 "github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
+	v1 "github.com/altercpre/aparok-block/format/v1/model"
 )
 ```
 
@@ -77,17 +77,17 @@ Fixture and corpus rules for contributors are in
 
 ## Contribution
 
-Thank you for your desire to develop Anytype together!
+Thank you for your desire to develop Aparok together!
 
-❤️ This project and everyone involved in it is governed by the [Code of Conduct](https://github.com/anyproto/.github/blob/main/docs/CODE_OF_CONDUCT.md).
+❤️ This project and everyone involved in it is governed by the [Code of Conduct](https://github.com/altercpre/.github/blob/main/docs/CODE_OF_CONDUCT.md).
 
-🧑‍💻 Check out our [contributing guide](https://github.com/anyproto/.github/blob/main/docs/CONTRIBUTING.md) to learn about asking questions, creating issues, or submitting pull requests.
+🧑‍💻 Check out our [contributing guide](https://github.com/altercpre/.github/blob/main/docs/CONTRIBUTING.md) to learn about asking questions, creating issues, or submitting pull requests.
 
-🫢 For security findings, please email [security@anytype.io](mailto:security@anytype.io) and refer to our [security guide](https://github.com/anyproto/.github/blob/main/docs/SECURITY.md) for more information.
+🫢 For security findings, please email [security@altercpre.w8n.pw](mailto:security@altercpre.w8n.pw) and refer to our [security guide](https://github.com/altercpre/.github/blob/main/docs/SECURITY.md) for more information.
 
-🤝 Follow us on [Github](https://github.com/anyproto) and join the [Contributors Community](https://github.com/orgs/anyproto/discussions).
+🤝 Follow us on [Github](https://github.com/altercpre) and join the [Contributors Community](https://github.com/orgs/altercpre/discussions).
 
 ---
-Made by Any — a Swiss association 🇨🇭
+Made by Altercpre — privacy-first, security-focused 🔒
 
 Licensed under [MIT](./LICENSE.md).
