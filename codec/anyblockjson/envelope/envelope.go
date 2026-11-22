@@ -5,7 +5,7 @@ package envelope
 import (
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // SnapshotWithType is wire-compatible with anytype.SnapshotWithType from

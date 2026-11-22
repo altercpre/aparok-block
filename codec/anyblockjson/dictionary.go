@@ -34,10 +34,10 @@ import (
 
 	"github.com/santhosh-tekuri/jsonschema/v6"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
-	"github.com/anyproto/any-block/format/v1/model"
-	formatschema "github.com/anyproto/any-block/format/v2/schema"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	formatschema "github.com/altercpre/aparok-block/format/v2/schema"
 )
 
 var propertiesSchemaJSON = formatschema.Properties()

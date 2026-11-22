@@ -23,7 +23,7 @@ package bundle
 import (
 	"fmt"
 
-	"github.com/anyproto/any-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
 )
 
 // UsedPropertyKeysFromBytes reports every STORED property key one document

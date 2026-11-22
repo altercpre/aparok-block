@@ -102,7 +102,7 @@ package anyblockjson
 import (
 	"sort"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // OmittedRelationOption reports a relation option object, which a bundle

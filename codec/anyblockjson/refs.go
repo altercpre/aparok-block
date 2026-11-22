@@ -50,9 +50,9 @@ import (
 	"github.com/ipfs/go-cid"
 	"github.com/mr-tron/base58/base58"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // ObjectNameResolver is the export-side seam onto the space's own object

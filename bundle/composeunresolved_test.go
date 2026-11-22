@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson"
-	"github.com/anyproto/any-block/format/v1/model"
-	"github.com/anyproto/any-block/internal/testfixtures"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	"github.com/altercpre/aparok-block/internal/testfixtures"
 )
 
 func writtenPage(t *testing.T, c *Composer, id string) {

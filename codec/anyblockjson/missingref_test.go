@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // testCid mints a REAL content id from a seed: the shape gate
@@ -122,7 +122,7 @@ func TestMissingReference_SingularBlockSlots(t *testing.T) {
 		"link": {Id: "b1", Content: &model.BlockContentOfLink{Link: &model.BlockContentLink{
 			TargetBlockId: deadCid}}},
 		"bookmark": {Id: "b1", Content: &model.BlockContentOfBookmark{Bookmark: &model.BlockContentBookmark{
-			Url: "https://anytype.io", TargetObjectId: deadCid}}},
+			Url: "https://altercpre.w8n.pw", TargetObjectId: deadCid}}},
 		"image": {Id: "b1", Content: &model.BlockContentOfFile{File: &model.BlockContentFile{
 			Type: model.BlockContentFile_Image, TargetObjectId: deadCid}}},
 		"file legacy hash": {Id: "b1", Content: &model.BlockContentOfFile{File: &model.BlockContentFile{

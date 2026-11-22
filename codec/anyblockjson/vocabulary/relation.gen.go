@@ -4,8 +4,8 @@
 package vocabulary
 
 import (
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	model "github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	model "github.com/altercpre/aparok-block/format/v1/model"
 )
 
 const RelationChecksum = "2ab1c36becd82f326e627ef3616b7eddab7008e1fd1e3afa95e11429f440d3a7"

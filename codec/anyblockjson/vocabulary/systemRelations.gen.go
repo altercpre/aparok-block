@@ -3,7 +3,7 @@
 
 package vocabulary
 
-import domain "github.com/anyproto/any-block/codec/anyblockjson/domain"
+import domain "github.com/altercpre/aparok-block/codec/anyblockjson/domain"
 
 const SystemRelationsChecksum = "f15832dd7ff54506512a0ce53c6a97e0047cfe3837689e5076a8d1ac81d6b377"
 

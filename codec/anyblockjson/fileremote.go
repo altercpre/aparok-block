@@ -13,8 +13,8 @@ import (
 	"github.com/ipfs/go-cid"
 	"github.com/santhosh-tekuri/jsonschema/v6"
 
-	"github.com/anyproto/any-block/format/v1/model"
-	formatschema "github.com/anyproto/any-block/format/v2/schema"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	formatschema "github.com/altercpre/aparok-block/format/v2/schema"
 )
 
 // FileRemoteVersion versions the decoded payload independently of FormatVersion.

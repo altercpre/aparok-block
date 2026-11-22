@@ -3,7 +3,7 @@
 
 package vocabulary
 
-import domain "github.com/anyproto/any-block/codec/anyblockjson/domain"
+import domain "github.com/altercpre/aparok-block/codec/anyblockjson/domain"
 
 const InternalTypesChecksum = "b570a9c246c367bd1853b487263b1094fcca36928b08983da8e1e6f47c926554"
 

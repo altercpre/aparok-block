@@ -14,11 +14,11 @@ import (
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/proto"
 
-	anyblockbundle "github.com/anyproto/any-block/bundle"
-	"github.com/anyproto/any-block/codec/anyblockjson"
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	envelopepb "github.com/anyproto/any-block/codec/anyblockjson/envelope"
-	"github.com/anyproto/any-block/format/v1/model"
+	anyblockbundle "github.com/altercpre/aparok-block/bundle"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	envelopepb "github.com/altercpre/aparok-block/codec/anyblockjson/envelope"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 const usage = "usage: anyblock <validate|to-v1|to-v2> [options]"

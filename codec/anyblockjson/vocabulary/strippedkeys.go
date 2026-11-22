@@ -1,6 +1,6 @@
 package vocabulary
 
-import "github.com/anyproto/any-block/codec/anyblockjson/domain"
+import "github.com/altercpre/aparok-block/codec/anyblockjson/domain"
 
 // DefaultStrippedKeys are high-churn local relation keys excluded from
 // subscription events by default. They reach a client only when explicitly

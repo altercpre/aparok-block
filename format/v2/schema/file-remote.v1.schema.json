@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.anytype.io/anyblock/file-remote/1.schema.json",
+  "$id": "https://schemas.altercpre.w8n.pw/anyblock/file-remote/1.schema.json",
   "title": "AnyBlock file_remote payload, version 1",
   "description": "The decoded JSON inside a file object's base64 file_remote string. This payload version is independent of the enclosing AnyBlock formatVersion.",
   "type": "object",

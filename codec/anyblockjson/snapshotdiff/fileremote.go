@@ -1,8 +1,8 @@
 package snapshotdiff
 
 import (
-	"github.com/anyproto/any-block/codec/anyblockjson"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 func compareFileRemote(orig, got *model.SmartBlockSnapshotBase) []string {

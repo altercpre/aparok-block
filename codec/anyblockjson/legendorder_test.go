@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // The stored keys ascend f01..f04 while their spellings descend — so a sort

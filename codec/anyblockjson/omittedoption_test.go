@@ -6,7 +6,7 @@ import (
 	"github.com/gogo/protobuf/types"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // What omitting an option document costs, per snapshot. The details half is

@@ -46,7 +46,7 @@ package anyblockjson
 import (
 	"encoding/json"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
 )
 
 //

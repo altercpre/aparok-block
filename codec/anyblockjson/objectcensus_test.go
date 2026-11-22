@@ -29,7 +29,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 const (
@@ -124,7 +124,7 @@ func TestExport_TheObjectCensusCoversEveryPosition(t *testing.T) {
 				Hash: censusObject, Type: model.BlockContentFile_Image}}}, nil),
 		"a bookmark's target": censusSnapshot(&model.Block{Id: censusBlock,
 			Content: &model.BlockContentOfBookmark{Bookmark: &model.BlockContentBookmark{
-				Url: "https://anytype.io", TargetObjectId: censusObject}}}, nil),
+				Url: "https://altercpre.w8n.pw", TargetObjectId: censusObject}}}, nil),
 		"a link block's target": censusSnapshot(&model.Block{Id: censusBlock,
 			Content: &model.BlockContentOfLink{Link: &model.BlockContentLink{
 				TargetBlockId: censusObject}}}, nil),

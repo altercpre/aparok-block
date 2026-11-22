@@ -16,8 +16,8 @@ import (
 
 	"github.com/santhosh-tekuri/jsonschema/v6"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
-	formatschema "github.com/anyproto/any-block/format/v2/schema"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
+	formatschema "github.com/altercpre/aparok-block/format/v2/schema"
 )
 
 var (

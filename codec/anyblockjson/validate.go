@@ -19,10 +19,10 @@ import (
 
 	"github.com/santhosh-tekuri/jsonschema/v6"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
-	"github.com/anyproto/any-block/format/v1/model"
-	formatschema "github.com/anyproto/any-block/format/v2/schema"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	formatschema "github.com/altercpre/aparok-block/format/v2/schema"
 	"github.com/santhosh-tekuri/jsonschema/v6/kind"
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
@@ -46,7 +46,7 @@ const (
 
 	// schemaBaseURL is where the published schemas live, one directory per
 	// format version.
-	schemaBaseURL = "https://schemas.anytype.io/anyblock/"
+	schemaBaseURL = "https://schemas.altercpre.w8n.pw/anyblock/"
 
 	// maxBlockIndent is the F4 resource bound on nesting depth, mirrored by
 	// the schema's indent maximum. Export enforces it too — Marshal must

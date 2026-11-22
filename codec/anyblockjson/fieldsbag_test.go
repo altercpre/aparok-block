@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // blockCoreSchema decodes the parts of $defs/blockCore these tests read.

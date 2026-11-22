@@ -10,9 +10,9 @@ import (
 	"testing"
 	"testing/fstest"
 
-	pb "github.com/anyproto/any-block/codec/anyblockjson/envelope"
-	"github.com/anyproto/any-block/format/v1/model"
-	"github.com/anyproto/any-block/internal/testfixtures"
+	pb "github.com/altercpre/aparok-block/codec/anyblockjson/envelope"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	"github.com/altercpre/aparok-block/internal/testfixtures"
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

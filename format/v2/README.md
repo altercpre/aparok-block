@@ -32,7 +32,7 @@ a human-only format would have made.
 
 ```json
 {
-  "$schema": "https://schemas.anytype.io/anyblock/2.0/object.schema.json",
+  "$schema": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json",
   "formatVersion": "2.0",
   "id": "bafyreieqh63jv…",
   "type": "Page",

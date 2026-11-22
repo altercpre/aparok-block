@@ -1,8 +1,8 @@
 package convert
 
 import (
-	ab "github.com/anyproto/any-block/codec/anyblockjson"
-	"github.com/anyproto/any-block/format/v1/model"
+	ab "github.com/altercpre/aparok-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/format/v1/model"
 	"github.com/gogo/protobuf/proto"
 )
 

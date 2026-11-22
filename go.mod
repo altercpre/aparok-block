@@ -1,4 +1,4 @@
-module github.com/anyproto/any-block
+module github.com/altercpre/aparok-block
 
 go 1.25.7
 

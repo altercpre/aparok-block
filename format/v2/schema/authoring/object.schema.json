@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.anytype.io/anyblock/2.0/authoring/object.schema.json",
+  "$id": "https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/object.schema.json",
   "title": "AnyBlock object — authoring subset",
   "description": "One object you are creating from nothing: a page, a type, or a template. A strict subset of the full object schema (../object.schema.json): every document valid here is valid there. The full schema also admits what only a live space can produce, such as block ids, attribution, timestamps and legends. Write what the object is and leave the rest out.",
   "x-app": "Anytype",
@@ -8,7 +8,7 @@
   "properties": {
     "$schema": {
       "type": "string",
-      "description": "Write this file's URL: https://schemas.anytype.io/anyblock/2.0/authoring/object.schema.json"
+      "description": "Write this file's URL: https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/object.schema.json"
     },
     "formatVersion": {
       "const": "2.0"

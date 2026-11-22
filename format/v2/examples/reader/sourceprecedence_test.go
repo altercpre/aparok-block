@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anyproto/any-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
 )
 
 func TestDataviewSelfTargetNormalizationPreservesSource(t *testing.T) {

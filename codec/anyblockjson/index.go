@@ -19,7 +19,7 @@ import (
 	"strings"
 	"sync"
 
-	formatschema "github.com/anyproto/any-block/format/v2/schema"
+	formatschema "github.com/altercpre/aparok-block/format/v2/schema"
 	"github.com/santhosh-tekuri/jsonschema/v6"
 )
 

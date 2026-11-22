@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anyproto/any-block/codec/anyblockjson"
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/unicode/norm"
 )

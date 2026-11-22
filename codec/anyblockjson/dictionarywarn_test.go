@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
 )
 
-const dictHead = `"$schema":"https://schemas.anytype.io/anyblock/2.0/properties.schema.json","formatVersion":"2.0",`
+const dictHead = `"$schema":"https://schemas.altercpre.w8n.pw/anyblock/2.0/properties.schema.json","formatVersion":"2.0",`
 
 func readDict(t *testing.T, doc string) (*PropertyDictionary, []Issue) {
 	t.Helper()

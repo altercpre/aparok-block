@@ -3,7 +3,7 @@ package anyblockjson
 import (
 	"fmt"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // WidgetViewIDs returns the primary dataview's stored-to-exported view IDs.

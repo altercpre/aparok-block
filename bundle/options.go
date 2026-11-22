@@ -7,7 +7,7 @@ package bundle
 import (
 	"fmt"
 
-	"github.com/anyproto/any-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
 )
 
 // refuseDocumentOnlyOptions is the bundle seam's admission check on a codec

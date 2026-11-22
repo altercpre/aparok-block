@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // The whole reason this format exists is the generate → validate → feed-back
@@ -146,7 +146,7 @@ func TestValidate_Valid(t *testing.T) {
 	}{
 		{"minimal", `{"formatVersion": "2.0"}`},
 		{"envelope", `{
-			"$schema": "https://schemas.anytype.io/anyblock/1.0/object.schema.json",
+			"$schema": "https://schemas.altercpre.w8n.pw/anyblock/1.0/object.schema.json",
 			"formatVersion": "2.0",
 			"id": "bafyrei123",
 			"type": "page",
@@ -359,7 +359,7 @@ func TestValidate_NewerFormatHint(t *testing.T) {
 		// a stale or invented $schema is decorative; only "formatVersion" gates
 		// given
 		doc := `{
-			"$schema": "https://schemas.anytype.io/anyblock/9/object.schema.json",
+			"$schema": "https://schemas.altercpre.w8n.pw/anyblock/9/object.schema.json",
 			"formatVersion": "2.0",
 			"blocks": [{"type": "paragraph", "text": "fine"}]
 		}`

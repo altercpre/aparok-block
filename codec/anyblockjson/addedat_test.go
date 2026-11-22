@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	formatschema "github.com/anyproto/any-block/format/v2/schema"
+	formatschema "github.com/altercpre/aparok-block/format/v2/schema"
 )
 
 // fileDoc wraps one file-family block carrying the given added_at literal.

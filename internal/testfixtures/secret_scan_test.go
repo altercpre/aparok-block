@@ -515,7 +515,7 @@ func isPublishableAddress(address string) bool {
 // publishedRoleAddresses is the closed set this repository may carry, and is
 // deliberately short. Adding to it is a decision to publish that address.
 var publishedRoleAddresses = []string{
-	"security@anytype.io",
+	"security@altercpre.w8n.pw",
 }
 
 func hasSingleRepeatedByte(value string) bool {
@@ -626,7 +626,7 @@ func TestSemanticSecretScannerAllowsOnlyDocumentedSafeShapes(t *testing.T) {
 		content string
 	}{
 		{"example email", "README.md", "contact new@example.com"},
-		{"published role address", "README.md", "email security@anytype.io for findings"},
+		{"published role address", "README.md", "email security@altercpre.w8n.pw for findings"},
 		{"repeated account sentinel", "format/v2/SPEC.md", account},
 		{"repeated CIDv1 sentinel", "bundle/DESIGN.md", cidV1},
 		{"malformed CIDv0 lookalike", "examples/object.md", malformedCIDV0},
@@ -644,7 +644,7 @@ func TestSemanticSecretScannerAllowsOnlyDocumentedSafeShapes(t *testing.T) {
 // project's published security contact is publishable, an individual's mailbox
 // at the same domain is exactly the corpus leak the scan exists to catch.
 func TestPublishedRoleAddressExemptionDoesNotWidenToItsDomain(t *testing.T) {
-	assert.Empty(t, scanTextualSecrets("README.md", "email security@anytype.io"))
+	assert.Empty(t, scanTextualSecrets("README.md", "email security@altercpre.w8n.pw"))
 	// Assembled at run time: a literal here would be a non-example address in a
 	// scanned file, and TestRepositoryFixtureSecretScan would flag this test.
 	const domain = "@anytype" + ".io"

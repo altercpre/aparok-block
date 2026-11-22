@@ -3,7 +3,7 @@ package main
 import (
 	"archive/zip"
 	"bytes"
-	bundleconvert "github.com/anyproto/any-block/bundle/convert"
+	bundleconvert "github.com/altercpre/aparok-block/bundle/convert"
 	"io"
 	"io/fs"
 	"os"
@@ -13,8 +13,8 @@ import (
 	"testing/fstest"
 	"time"
 
-	env "github.com/anyproto/any-block/codec/anyblockjson/envelope"
-	"github.com/anyproto/any-block/format/v1/model"
+	env "github.com/altercpre/aparok-block/codec/anyblockjson/envelope"
+	"github.com/altercpre/aparok-block/format/v1/model"
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/types"

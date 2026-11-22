@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.anytype.io/anyblock/2.0/authoring/index.schema.json",
+  "$id": "https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/index.schema.json",
   "title": "AnyBlock bundle index — authoring subset",
   "description": "One index.json at the bundle root describes the bundle as a whole: what the space is called, what a user lands on, what the sidebar shows. A strict subset of the full index schema (../index.schema.json): every index valid here is valid there. Every other file in the bundle is one object or the property dictionary.",
   "x-app": "Anytype",
@@ -14,7 +14,7 @@
   "properties": {
     "$schema": {
       "type": "string",
-      "description": "Write this file's URL: https://schemas.anytype.io/anyblock/2.0/authoring/index.schema.json"
+      "description": "Write this file's URL: https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/index.schema.json"
     },
     "formatVersion": {
       "const": "2.0"

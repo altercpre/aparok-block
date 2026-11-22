@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson"
-	envelopepb "github.com/anyproto/any-block/codec/anyblockjson/envelope"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
+	envelopepb "github.com/altercpre/aparok-block/codec/anyblockjson/envelope"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 func TestMalformedSpaceIDFailsBeforeOutputCreation(t *testing.T) {

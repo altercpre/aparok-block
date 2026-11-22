@@ -12,11 +12,11 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	anyblockbundle "github.com/anyproto/any-block/bundle"
-	ab "github.com/anyproto/any-block/codec/anyblockjson"
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
-	"github.com/anyproto/any-block/format/v1/model"
+	anyblockbundle "github.com/altercpre/aparok-block/bundle"
+	ab "github.com/altercpre/aparok-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // Options controls v1 encoding and destination-specific reference conversion.

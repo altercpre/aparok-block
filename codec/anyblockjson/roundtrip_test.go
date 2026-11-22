@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 //
@@ -132,7 +132,7 @@ func richSnapshot() *model.SmartBlockSnapshotBase {
 			State: model.BlockContentFile_Done, AddedAt: 1751791445,
 		}}},
 		{Id: "b9", Content: &model.BlockContentOfBookmark{Bookmark: &model.BlockContentBookmark{
-			Url: "https://anytype.io", TargetObjectId: "bafyreibookmark",
+			Url: "https://altercpre.w8n.pw", TargetObjectId: "bafyreibookmark",
 			State: model.BlockContentBookmark_Done,
 		}}},
 		{Id: "row1", ChildrenIds: []string{"col1", "col2"},

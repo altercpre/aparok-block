@@ -30,7 +30,7 @@ The Community export's index opens:
 
 ```json
 {
-  "$schema": "https://schemas.anytype.io/anyblock/2.0/index.schema.json",
+  "$schema": "https://schemas.altercpre.w8n.pw/anyblock/2.0/index.schema.json",
   "formatVersion": "2.0",
   "name": "Community",
   "icon": { "format": "file", "file": "bafyreiaixwrepr…", "color": 15 },

@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/internal/constant"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/internal/constant"
 )
 
 // renderPropertyDefinitionMembers appends all non-identity members of def in

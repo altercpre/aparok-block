@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // censusOf runs the label plan's population probe over a snapshot.
@@ -96,7 +96,7 @@ func TestExport_CensusPopulationIsWhatExportEmits(t *testing.T) {
 				{Id: "root", ChildrenIds: []string{"bm"},
 					Content: &model.BlockContentOfSmartblock{Smartblock: &model.BlockContentSmartblock{}}},
 				{Id: "bm", ChildrenIds: []string{"belowLeaf"},
-					Content: &model.BlockContentOfBookmark{Bookmark: &model.BlockContentBookmark{Url: "https://anytype.io"}}},
+					Content: &model.BlockContentOfBookmark{Bookmark: &model.BlockContentBookmark{Url: "https://altercpre.w8n.pw"}}},
 				textBlock("belowLeaf", model.BlockContentText_Paragraph, "never served"),
 			},
 			Details: fields(map[string]*types.Value{"id": str("root")}),

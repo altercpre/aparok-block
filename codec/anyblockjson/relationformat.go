@@ -44,8 +44,8 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // The three stored detail keys the §2d envelope fields carry. Named off the

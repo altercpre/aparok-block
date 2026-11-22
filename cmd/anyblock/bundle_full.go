@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	bundleconvert "github.com/anyproto/any-block/bundle/convert"
+	bundleconvert "github.com/altercpre/aparok-block/bundle/convert"
 )
 
 func runToV1FullBundle(input, output, encoding, spaceID string, zipped bool) (err error) {

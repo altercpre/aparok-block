@@ -21,7 +21,7 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // fragmentStructuralTypes are the §7 structural block types a fragment must

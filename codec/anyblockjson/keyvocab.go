@@ -31,8 +31,8 @@ package anyblockjson
 // storeresolver.
 
 import (
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
 )
 
 // KeyVocabulary translates between the STORED keys the snapshot carries and

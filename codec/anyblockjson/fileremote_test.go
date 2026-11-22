@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/format/v1/model"
-	"github.com/anyproto/any-block/internal/testfixtures"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	"github.com/altercpre/aparok-block/internal/testfixtures"
 )
 
 func remoteTestPayload() string {
@@ -161,7 +161,7 @@ func TestFileRemoteSchemaHasIndependentIdentity(t *testing.T) {
 	data := FileRemoteSchemaJSON()
 	var schema map[string]any
 	require.NoError(t, json.Unmarshal(data, &schema))
-	assert.Equal(t, "https://schemas.anytype.io/anyblock/file-remote/1.schema.json", schema["$id"])
+	assert.Equal(t, "https://schemas.altercpre.w8n.pw/anyblock/file-remote/1.schema.json", schema["$id"])
 	assert.Equal(t, FileRemoteSchemaURL, schema["$id"])
 	data[0] = '!'
 	assert.True(t, json.Valid(FileRemoteSchemaJSON()), "schema accessors return independent copies")

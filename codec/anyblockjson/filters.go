@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // filterConditionList renders the condition vocabulary for error messages.

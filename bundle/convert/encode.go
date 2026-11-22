@@ -3,8 +3,8 @@ package convert
 import (
 	"fmt"
 
-	envelopepb "github.com/anyproto/any-block/codec/anyblockjson/envelope"
-	"github.com/anyproto/any-block/format/v1/model"
+	envelopepb "github.com/altercpre/aparok-block/codec/anyblockjson/envelope"
+	"github.com/altercpre/aparok-block/format/v1/model"
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/proto"
 )

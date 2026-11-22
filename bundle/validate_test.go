@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/internal/testfixtures"
+	"github.com/altercpre/aparok-block/internal/testfixtures"
 )
 
 func TestValidateChecksBundleReferencesAndManifestPaths(t *testing.T) {

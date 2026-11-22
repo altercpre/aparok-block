@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/filterstring"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/filterstring"
 )
 
 // The compact filter grammar's compiler lives in a SUBPACKAGE (§6.2.1,

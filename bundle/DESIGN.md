@@ -22,7 +22,7 @@ since finish sorts.
 
 This file preserves the original architecture record and corpus evidence.
 Implementation paths cited here that are **not rooted in this Go module** —
-every package path outside `github.com/anyproto/any-block`, `core/…`,
+every package path outside `github.com/altercpre/aparok-block`, `core/…`,
 `pkg/lib/…` and `cmd/internal/…` among them, and the historical `anyblock*`
 conversion, batch and sweep tools — refer to the Anytype application, not to
 this repository. Proposed snippets below are historical rationale, not the

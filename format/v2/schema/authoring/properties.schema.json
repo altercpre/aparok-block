@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.anytype.io/anyblock/2.0/authoring/properties.schema.json",
+  "$id": "https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/properties.schema.json",
   "title": "AnyBlock property dictionary — authoring subset",
   "description": "One properties.json at the bundle root, beside index.json: the bundle's own properties, declared once, in one place. A strict subset of the full dictionary schema (../properties.schema.json): every dictionary valid here is valid there. Declare a property here, reference it from a type's property_definitions, and write its values in objects under the same key.",
   "x-app": "Anytype",
@@ -13,7 +13,7 @@
   "properties": {
     "$schema": {
       "type": "string",
-      "description": "Write this file's URL: https://schemas.anytype.io/anyblock/2.0/authoring/properties.schema.json"
+      "description": "Write this file's URL: https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/properties.schema.json"
     },
     "formatVersion": {
       "const": "2.0"

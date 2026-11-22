@@ -13,7 +13,7 @@ import (
 
 func TestIndex_Roundtrip(t *testing.T) {
 	doc := `{
-		"$schema": "https://schemas.anytype.io/anyblock/1.0/index.schema.json",
+		"$schema": "https://schemas.altercpre.w8n.pw/anyblock/1.0/index.schema.json",
 		"formatVersion": "2.0",
 		"name": "Company Wiki",
 		"description": "Everything we know, with an owner.",

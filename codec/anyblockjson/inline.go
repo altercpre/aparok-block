@@ -15,8 +15,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/internal/text"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/internal/text"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // An Object mark's target renders as Anytype's deep link. The form is exact:

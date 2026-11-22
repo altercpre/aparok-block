@@ -3,7 +3,7 @@
 
 package vocabulary
 
-import model "github.com/anyproto/any-block/format/v1/model"
+import model "github.com/altercpre/aparok-block/format/v1/model"
 
 const LayoutChecksum = "c136128edc84e9bf9431617756987159c53f014a286607b15382d84e443d16c2"
 

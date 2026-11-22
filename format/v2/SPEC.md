@@ -3,7 +3,7 @@
 Status: **draft** · `formatVersion`: **2.0** · Package: `codec/anyblockjson`
 
 Implementation paths this document cites that are **not rooted in this Go
-module** — every package path outside `github.com/anyproto/any-block`,
+module** — every package path outside `github.com/altercpre/aparok-block`,
 `core/…` and `pkg/lib/…` among them, and the historical `anyblock*`
 conversion and validation tools — refer to the Anytype application. They are
 integration evidence, not paths in this repository.
@@ -294,7 +294,7 @@ The format uses six Anytype concepts; everything else is borrowed vocabulary:
 
 ```json
 {
-  "$schema": "https://schemas.anytype.io/anyblock/2.0/object.schema.json",
+  "$schema": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json",
   "formatVersion": "2.0",
   "id": "bafyreieqh63jv…",
   "type": "Page",
@@ -815,7 +815,7 @@ object. That is `index.json`, one file at the bundle root, validated against
 
 ```json
 {
-  "$schema": "https://schemas.anytype.io/anyblock/2.0/index.schema.json",
+  "$schema": "https://schemas.altercpre.w8n.pw/anyblock/2.0/index.schema.json",
   "formatVersion": "2.0",
   "name": "Company Wiki",
   "description": "Everything we know, with an owner.",
@@ -1660,7 +1660,7 @@ belongs in the index because a manifest is what an index is).
 
 ```json
 {
-  "$schema": "https://schemas.anytype.io/anyblock/2.0/properties.schema.json",
+  "$schema": "https://schemas.altercpre.w8n.pw/anyblock/2.0/properties.schema.json",
   "formatVersion": "2.0",
   "properties": [
     { "property": "6a32d4856761631534b22f85",
@@ -2280,9 +2280,9 @@ mints.
 So each grammar also publishes an **authoring subset**, one schema beside
 each full one:
 
-    schema/authoring/object.schema.json      https://schemas.anytype.io/anyblock/2.0/authoring/object.schema.json
-    schema/authoring/index.schema.json       https://schemas.anytype.io/anyblock/2.0/authoring/index.schema.json
-    schema/authoring/properties.schema.json  https://schemas.anytype.io/anyblock/2.0/authoring/properties.schema.json
+    schema/authoring/object.schema.json      https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/object.schema.json
+    schema/authoring/index.schema.json       https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/index.schema.json
+    schema/authoring/properties.schema.json  https://schemas.altercpre.w8n.pw/anyblock/2.0/authoring/properties.schema.json
 
 **A subset, not a different format.** Same `formatVersion`, same reader, same
 wire: an authored document imports through the same `Unmarshal` an exported
@@ -2422,7 +2422,7 @@ object identity, or references from other documents.
 The string is **standard padded base64 of UTF-8 JSON**. The decoded payload
 has its own integer `version`, initially **1**. Its schema is
 [`schema/file-remote.v1.schema.json`](schema/file-remote.v1.schema.json),
-published as `https://schemas.anytype.io/anyblock/file-remote/1.schema.json`.
+published as `https://schemas.altercpre.w8n.pw/anyblock/file-remote/1.schema.json`.
 Payload versioning is independent of the containing document's
 `formatVersion: "2.0"`: a future payload version need not change the outer
 grammar, which continues to carry an opaque string. Base64 is an encoding,
@@ -6268,7 +6268,7 @@ JSON implementation.
   not `file`; the `file` spelling answers for the stored `None` and nothing
   else), and its subtree does not leave a SUCCESSFUL export with nothing said.
 - The `$schema` URL carries the same `major.minor` identity
-  (`https://schemas.anytype.io/anyblock/<version>/object.schema.json`) and is
+  (`https://schemas.altercpre.w8n.pw/anyblock/<version>/object.schema.json`) and is
   **decorative for validity**: it is optional and no reader gates compatibility
   on it. It dispatches a standalone document to one of the three grammars by
   its trailing filename. The frozen grammar is published under
@@ -7669,7 +7669,7 @@ production consumer; native import wiring there is follow-up work.
 
 ```json
 {
-  "$schema": "https://schemas.anytype.io/anyblock/2.0/object.schema.json",
+  "$schema": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json",
   "formatVersion": "2.0",
   "id": "bafyreieqh63jv…",
   "type": "Page",

@@ -5,8 +5,8 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"github.com/anyproto/any-block/codec/anyblockjson"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // The v1 details map is a protobuf struct, so values are wrapped.
@@ -56,7 +56,7 @@ func ExampleMarshal() {
 
 	// Output:
 	// {
-	//   "$schema": "https://schemas.anytype.io/anyblock/2.0/object.schema.json",
+	//   "$schema": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json",
 	//   "formatVersion": "2.0",
 	//   "id": "bafyreiexampleobject",
 	//   "type": "Page",

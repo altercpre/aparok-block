@@ -42,12 +42,12 @@
 //
 // # Protobuf bindings
 //
-// The v1 types come from [github.com/anyproto/any-block/format/v1/model],
+// The v1 types come from [github.com/altercpre/aparok-block/format/v1/model],
 // generated with gogo protobuf. Callers building a snapshot by hand need
 // "github.com/gogo/protobuf/types" for the *types.Value and *types.Struct that
 // carry an object's details; decoding a stored v1 snapshot from bytes needs
 // "github.com/gogo/protobuf/proto" together with
-// [github.com/anyproto/any-block/codec/anyblockjson/envelope]. The newer
+// [github.com/altercpre/aparok-block/codec/anyblockjson/envelope]. The newer
 // google.golang.org/protobuf runtime will not decode these types.
 //
 // # Warnings and errors

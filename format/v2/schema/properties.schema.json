@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.anytype.io/anyblock/2.0/properties.schema.json",
+  "$id": "https://schemas.altercpre.w8n.pw/anyblock/2.0/properties.schema.json",
   "title": "AnyBlock JSON property dictionary",
   "description": "One properties.json at the root of a bundle names every property the bundle's objects use. A sibling of index.json: an index says where things are, a dictionary says what they mean. Every entry carries its own format and states the complete definition, bundled key or not, so a reader can interpret a backup without shipping the bundled table.",
   "type": "object",
@@ -44,7 +44,7 @@
             "$ref": "#/$defs/undefinedPropertyEntry"
           },
           "else": {
-            "$ref": "https://schemas.anytype.io/anyblock/2.0/object.schema.json#/$defs/propertyDefinition"
+            "$ref": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json#/$defs/propertyDefinition"
           }
         },
         {

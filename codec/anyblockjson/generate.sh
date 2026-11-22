@@ -5,14 +5,14 @@ repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)
 generated_dir=$(mktemp -d "${TMPDIR:-/tmp}/any-block-proto.XXXXXX")
 trap 'rm -rf -- "$generated_dir"' EXIT HUP INT TERM
 
-model_map=Mformat/v1/proto/models.proto=github.com/anyproto/any-block/format/v1/model
+model_map=Mformat/v1/proto/models.proto=github.com/altercpre/aparok-block/format/v1/model
 struct_map=Mgoogle/protobuf/struct.proto=github.com/gogo/protobuf/types
 
 cd "$repo_root"
 GOGO_NO_UNDERSCORE=1 GOGO_EXPORT_ONEOF_INTERFACE=1 protoc -I . \
   --gogofaster_out="$struct_map,$model_map:$generated_dir" \
   format/v1/proto/models.proto
-generated_root="$generated_dir/github.com/anyproto/any-block/format/v1"
+generated_root="$generated_dir/github.com/altercpre/aparok-block/format/v1"
 generated_model="$generated_root/model/models.pb.go"
 target_model=format/v1/model/models.pb.go
 target_enums=format/v1/model/json_enums.go

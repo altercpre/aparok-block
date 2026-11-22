@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/anyproto/any-block/format/v1/model"
-	"github.com/anyproto/any-block/internal/pbtypes"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	"github.com/altercpre/aparok-block/internal/pbtypes"
 )
 
 // The label rule (§3): a space-minted key is spelled by its display name,

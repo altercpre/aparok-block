@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/format/v1/model"
-	formatschema "github.com/anyproto/any-block/format/v2/schema"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	formatschema "github.com/altercpre/aparok-block/format/v2/schema"
 )
 
 func colorDoc(literal string) string {

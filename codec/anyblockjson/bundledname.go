@@ -54,8 +54,8 @@ import (
 
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/codec/anyblockjson/vocabulary"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/vocabulary"
 )
 
 // FoldKeyTerm is the format's forgiving fold over key terms — the class two

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.anytype.io/anyblock/2.0/index.schema.json",
+  "$id": "https://schemas.altercpre.w8n.pw/anyblock/2.0/index.schema.json",
   "title": "AnyBlock JSON bundle index",
   "description": "One index.json at the root of a bundle describes the bundle as a whole: what the space is called, where a user lands after installing it, and what the sidebar shows. Everything else in a bundle describes a single object; this is the only document that describes the set.",
   "type": "object",
@@ -30,7 +30,7 @@
       "description": "One line on what the space is for. Author-facing and applied to the space where the client shows one."
     },
     "icon": {
-      "$ref": "https://schemas.anytype.io/anyblock/2.0/object.schema.json#/$defs/icon",
+      "$ref": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json#/$defs/icon",
       "description": "The space's icon, exactly the shape `icon` has on any object: an emoji, the object id of an image in the bundle, a raw content cid, a built-in icon name, or a bare colour."
     },
     "entrypoint": {
@@ -196,12 +196,12 @@
           "description": "What the widget points at."
         },
         "layout": {
-          "$ref": "https://schemas.anytype.io/anyblock/2.0/object.schema.json#/$defs/widgetLayout",
+          "$ref": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json#/$defs/widgetLayout",
           "default": "link",
           "description": "How the widget renders: `link` is a single row, `tree` expands children, `list` and `compact_list` show contents, `view` renders a type's or query's own view."
         },
         "limit": {
-          "$ref": "https://schemas.anytype.io/anyblock/2.0/object.schema.json#/$defs/widgetListingLimit",
+          "$ref": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json#/$defs/widgetListingLimit",
           "description": "How many entries a listing widget shows, ignored by `link`. The cap is the object schema's $defs/widgetListingLimit."
         },
         "view_id": {
@@ -214,15 +214,15 @@
           "description": "The client added this widget automatically rather than the user placing it. Written on export, so a restored sidebar keeps behaving like the original."
         },
         "card_style": {
-          "$ref": "https://schemas.anytype.io/anyblock/2.0/object.schema.json#/$defs/cardStyle",
+          "$ref": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json#/$defs/cardStyle",
           "description": "How the widget's row renders, the link block's own member. Defaults to `text`."
         },
         "icon_size": {
-          "$ref": "https://schemas.anytype.io/anyblock/2.0/object.schema.json#/$defs/iconSize",
+          "$ref": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json#/$defs/iconSize",
           "description": "The icon size on the widget's card, the link block's own member. Defaults to `none`."
         },
         "description": {
-          "$ref": "https://schemas.anytype.io/anyblock/2.0/object.schema.json#/$defs/linkDescription",
+          "$ref": "https://schemas.altercpre.w8n.pw/anyblock/2.0/object.schema.json#/$defs/linkDescription",
           "description": "What the widget's card shows under the title, the link block's own member. Defaults to `none`."
         },
         "properties": {

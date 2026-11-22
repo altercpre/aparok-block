@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anyproto/any-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
 )
 
 // Severity grades a bundle-level issue (§12). Only SeverityError makes

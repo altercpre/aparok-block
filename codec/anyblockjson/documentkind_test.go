@@ -34,14 +34,14 @@ func TestDocumentKind_PlacesTheThreeGrammars(t *testing.T) {
 	// would break that.
 	t.Run("the version segment is ignored", func(t *testing.T) {
 		assert.Equal(t, KindIndex, DocumentKind([]byte(
-			`{"$schema": "https://schemas.anytype.io/anyblock/9/index.schema.json", "formatVersion": "2.0"}`)))
+			`{"$schema": "https://schemas.altercpre.w8n.pw/anyblock/9/index.schema.json", "formatVersion": "2.0"}`)))
 	})
 
 	t.Run("a schema nobody publishes decides nothing", func(t *testing.T) {
 		// an author reached for `.../relation.schema.json`, which does not
 		// exist; it must fall through to shape rather than be believed
 		assert.Equal(t, KindObject, DocumentKind([]byte(
-			`{"$schema": "https://schemas.anytype.io/anyblock/2.0/relation.schema.json",
+			`{"$schema": "https://schemas.altercpre.w8n.pw/anyblock/2.0/relation.schema.json",
 			  "formatVersion": "2.0", "kind": "property", "internal_key": "estimate"}`)))
 	})
 
@@ -127,7 +127,7 @@ func TestDocumentKind_TheWrongReaderSaysSo(t *testing.T) {
 	// decides validity: a stale or invented $schema stays decorative.
 	t.Run("a stale schema url is still valid", func(t *testing.T) {
 		require.NoError(t, Validate([]byte(
-			`{"$schema": "https://schemas.anytype.io/anyblock/9/object.schema.json",
+			`{"$schema": "https://schemas.altercpre.w8n.pw/anyblock/9/object.schema.json",
 			  "formatVersion": "2.0", "blocks": [{"type": "paragraph", "text": "fine"}]}`), Options{}))
 	})
 }

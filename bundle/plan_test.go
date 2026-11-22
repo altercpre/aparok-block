@@ -6,17 +6,17 @@ package bundle
 // (DESIGN.md §1.1, §1.3).
 
 import (
-	"github.com/anyproto/any-block/codec/anyblockjson"
+	"github.com/altercpre/aparok-block/codec/anyblockjson"
 	"strings"
 	"testing"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/format/v1/model"
-	"github.com/anyproto/any-block/internal/testfixtures"
+	"github.com/altercpre/aparok-block/format/v1/model"
+	"github.com/altercpre/aparok-block/internal/testfixtures"
 )
 
 // Every kind lands in its design-§1.2 directory, named by its id verbatim

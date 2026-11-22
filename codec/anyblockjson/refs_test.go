@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-block/codec/anyblockjson/domain"
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/codec/anyblockjson/domain"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // testObjectNames answers from a fixed table — the ObjectNameResolver shape.
@@ -44,7 +44,7 @@ func refSnapshot() *model.SmartBlockSnapshotBase {
 				Type: model.BlockContentFile_Image, TargetObjectId: "bafyreipicture",
 			}}},
 			{Id: "bmk", Content: &model.BlockContentOfBookmark{Bookmark: &model.BlockContentBookmark{
-				Url: "https://anytype.io", TargetObjectId: "bafyreibookmarked",
+				Url: "https://altercpre.w8n.pw", TargetObjectId: "bafyreibookmarked",
 			}}},
 			{Id: "dv1", Content: &model.BlockContentOfDataview{Dataview: &model.BlockContentDataview{
 				TargetObjectId: "bafyreitargeted",
@@ -119,7 +119,7 @@ const suffixedRefDoc = `{
   "blocks": [
     {"type": "link", "object_id": "bafyreilinked#linked_page"},
     {"type": "image", "object_id": "bafyreipicture#cat_photo"},
-    {"type": "bookmark", "url": "https://anytype.io", "object_id": "bafyreibookmarked#bookmarked_page"},
+    {"type": "bookmark", "url": "https://altercpre.w8n.pw", "object_id": "bafyreibookmarked#bookmarked_page"},
     {"type": "dataview", "object_id": "bafyreitargeted#task_tracker", "views": [
       {"id": "view1", "name": "All",
        "filters": [{"property": "assignee", "condition": "in", "value": ["bafyreifiltered#filter_target"]}],

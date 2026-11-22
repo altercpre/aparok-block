@@ -19,7 +19,7 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // omap is a JSON object with explicit key order — the canonical form fixes

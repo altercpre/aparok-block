@@ -25,7 +25,7 @@ package anyblockjson
 // paper over by omission.
 
 import (
-	"github.com/anyproto/any-block/format/v1/model"
+	"github.com/altercpre/aparok-block/format/v1/model"
 )
 
 // participantProvenanceKeys are the stored details export omits on a
