@@ -1,11 +1,11 @@
-# AnyBlock
+# Aparok Block
 
-AnyBlock is Aparok's open interchange project. It contains both generations
+Aparok Block is Aparok's open interchange project. It contains both generations
 of the format, the codecs between them, bundle tooling, and conformance data.
 
-- **AnyBlock v1** is the protobuf wire format used by Aparok for models,
+- **Aparok Block v1** is the protobuf wire format used by Aparok for models,
   events, changes, and snapshots.
-- **AnyBlock v2** is the readable, interoperable import/export and API-base
+- **Aparok Block v2** is the readable, interoperable import/export and API-base
   format. Its first public `formatVersion` is `2.0`; later grammar revisions
   in this family use `2.1`, `2.2`, and so on.
 
@@ -43,7 +43,7 @@ cmd/anyblock/        command-line validation and conversion tools
 js/                  future JavaScript/Wasm packages
 ```
 
-A caller imports the two together — v1 types in, AnyBlock JSON out:
+A caller imports the two together — v1 types in, Aparok Block JSON out:
 
 ```go
 import (
